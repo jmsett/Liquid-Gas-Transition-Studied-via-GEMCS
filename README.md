@@ -7,7 +7,8 @@ equation of state.
 The full report can be found in the repository as a PDF file. The plots can be found in the 'GEMCS plots.ipynb' jupyter-notebook (new path names are needed in order to load the data).
 
 ## Program
-main.cpp: Main GEMCS file.
+### main.cpp:
+Main GEMCS file.
 The following simulation parameters can be changed here: totV, V_BoxA, V_boxB, Ntot, N_BoxA, N_BoxB, temperature, dmax, Vmax, eqsweeps (number of sweeps for thermalization), sweeps (GEMCS sweeps).
 
 global_random.h: Global random functions.
