@@ -8,11 +8,9 @@ equation of state.
 main.cpp: Main GEMCS file.
 The following simulation parameters can be changed here: totV, V_BoxA, V_boxB, Ntot, N_BoxA, N_BoxB, temperature, dmax, Vmax, eqsweeps (number of sweeps for thermalization), sweeps (GEMCS sweeps).
 
-global_random.h:
-Global random functions.
+global_random.h: Global random functions.
 
-progresBar.h:
-Progress Bar animation for the terminal output.
+progresBar.h: Progress Bar animation for the terminal output.
 
 particles.h: Particle and Box properties.
 
