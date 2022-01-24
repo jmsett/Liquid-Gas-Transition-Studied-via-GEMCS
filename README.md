@@ -11,21 +11,29 @@ The full report can be found in the repository as a PDF file. The plots can be f
 Main GEMCS file.
 The following simulation parameters can be changed here: totV, V_BoxA, V_boxB, Ntot, N_BoxA, N_BoxB, temperature, dmax, Vmax, eqsweeps (number of sweeps for thermalization), sweeps (GEMCS sweeps).
 
-global_random.h: Global random functions.
+### global_random.h:
+Global random functions.
 
-progresBar.h: Progress Bar animation for the terminal output.
+### progresBar.h:
+Progress Bar animation for the terminal output.
 
-particles.h: Particle and Box properties.
+### particles.h:
+Particle and Box properties.
 
-potential.h: Functions for computing the total potential energy, as well as rescaled potential energy.
+### potential.h:
+Functions for computing the total potential energy, as well as rescaled potential energy.
 
-montecarlo.h: Monte Carlo Moves. MC move probabilities can be changed Pn, Pd, Pv.
+### montecarlo.h:
+Monte Carlo Moves. MC move probabilities can be changed Pn, Pd, Pv.
 
-static_correlations.h: Static correlation function g(r) (radial distribution function).
+### static_correlations.h:
+Static correlation function g(r) (radial distribution function).
 
-verletlist3D: Verlet list definition for faster GEMC simulations, as opposed to updating pair interactions every round. (Uses celllist.h)
+### verletlist3D:
+Verlet list definition for faster GEMC simulations, as opposed to updating pair interactions every round. (Uses celllist.h)
 
-celllist.h: Celllist for faster GEMC simulations (used by verletlist3D.h)
+### celllist.h:
+Celllist for faster GEMC simulations (used by verletlist3D.h)
 
 ## Data
 The folder '100K' contains the results of the GEMCS for different temperatures, 'gr' contains the results of the radial distribution function for different temperatures, and 'thermal_eq' contains the thermal equilibrium data.
