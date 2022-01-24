@@ -33,7 +33,9 @@ delta_rho.dat: rho_l - rho_g data points for fit via the scaling law.
 
 paper_exp.dat, paper_theo.dat: Data points of the binodals in Verlet's paper, as mentioned in the report (experimental/numerical binodals).
 
-p_T.dat: Pressure data of the GEMCS for different temperatures.
+pressure.dat: Pressure numerical data for the gas and liquid phase.
+
+p_T.dat: Pressure data of the GEMCS for different temperatures, taking the average of liquid-gas pressure numerical results from pressure.dat.
 
 rho_avg.dat: data points for the liquid-gas average density for fit with the coexistence width line.
 
