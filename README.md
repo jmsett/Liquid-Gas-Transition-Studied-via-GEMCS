@@ -4,6 +4,8 @@ In particular, we wish to determine the system's liquid-gas binodal in the tempe
 We will compare the obtained binodal with results from the literature, and we will discuss the behavior around the critical point in light of the van der Waals
 equation of state.
 
+The full report can be found in the repository as a PDF file. The plots can be found in the 'GEMCS plots.ipynb' jupyter-notebook (new path names are needed in order to load the data).
+
 ## Program
 main.cpp: Main GEMCS file.
 The following simulation parameters can be changed here: totV, V_BoxA, V_boxB, Ntot, N_BoxA, N_BoxB, temperature, dmax, Vmax, eqsweeps (number of sweeps for thermalization), sweeps (GEMCS sweeps).
@@ -44,6 +46,3 @@ shifted.dat: Data points of the binodal in Vrabec's paper.
 sigma_binodal.dat: Data on the Gaussian fit's standard deviation for the points on the T-rho phase diagram.
 
 time_equilibrium.txt: Data on the total time of the simulation for every temperature, and data on the equilibrium point for every temperature.
-
-## Report
-Find the full report in the repository as a PDF file. 
