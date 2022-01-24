@@ -18,7 +18,7 @@ particles.h: Particle and Box properties.
 
 potential.h: Functions for computing the total potential energy, as well as rescaled potential energy.
 
-montecarlo.h: Monte Carlo Moves.
+montecarlo.h: Monte Carlo Moves. MC move probabilities can be changed Pn, Pd, Pv.
 
 static_correlations.h: Static correlation function g(r) (radial distribution function).
 
