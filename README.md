@@ -26,15 +26,23 @@ celllist.h: Celllist for faster GEMC simulations (used by verletlist3D.h)
 
 ## Data
 The folder '100K' contains the results of the GEMCS for different temperatures.
+
 The folder 'gr' contains the results of the radial distribution function for different temperatures.
 
 binodal.txt: Binodal data.
+
 delta_rho.dat: rho_l - rho_g data points for fit via the scaling law.
+
 paper_exp.dat, paper_theo.dat: Data points of the binodals in Verlet's paper, as mentioned in the report (experimental/numerical binodals).
+
 p_T.dat: Pressure data of the GEMCS for different temperatures.
+
 rho_avg.dat: data points for the liquid-gas average density for fit with the coexistence width line.
+
 shifted.dat: Data points of the binodal in Vrabec's paper.
+
 sigma_binodal.dat: Data on the Gaussian fit's standard deviation for the points on the T-rho phase diagram.
+
 time_equilibrium.txt: Data on the total time of the simulation for every temperature, and data on the equilibrium point for every temperature.
 
 ## Report
