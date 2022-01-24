@@ -1,0 +1,14 @@
+T = 0,700    sim_t = 1258 s     eqPoint = 50 000
+T = 0,725    sim_t = 1298 s     eqPoint = 60 000
+T = 0,750    sim_t = 1409 s     eqPoint = 30 000
+T = 0,775    sim_t = 1469 s     eqPoint = 35 000
+
+T = 0,800    sim_t = 1609 s     eqPoint = 30 000
+T = 0,825    sim_t = 1795 s     eqPoint = 50 000
+T = 0,850    sim_t = 2056 s     eqPoint = 35 000
+
+T = 0,860    sim_t = 2159 s     eqPoint = 40 000
+
+T = 0,875    sim_t = NA         eqPoint = 150 000
+
+T = 0,900    sim_t = 2042 s     eqPoint = NA
