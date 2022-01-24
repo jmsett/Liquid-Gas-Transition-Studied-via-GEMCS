@@ -25,9 +25,7 @@ verletlist3D: Verlet list definition for faster GEMC simulations, as opposed to 
 celllist.h: Celllist for faster GEMC simulations (used by verletlist3D.h)
 
 ## Data
-The folder '100K' contains the results of the GEMCS for different temperatures.
-
-The folder 'gr' contains the results of the radial distribution function for different temperatures.
+The folder '100K' contains the results of the GEMCS for different temperatures, 'gr' contains the results of the radial distribution function for different temperatures, and 'thermal_eq' contains the thermal equilibrium data.
 
 binodal.txt: Binodal data.
 
